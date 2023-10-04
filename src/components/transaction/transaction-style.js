@@ -13,10 +13,6 @@ export const Table = styled.table`
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 `;
 export const Thead = styled.table`
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
 text-align: center;
 margin-bottom: 20px`;
 
