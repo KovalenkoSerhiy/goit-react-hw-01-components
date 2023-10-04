@@ -13,7 +13,10 @@ export const Table = styled.table`
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 `;
 export const Thead = styled.table`
-text-align: center;
-margin-bottom: 20px`;
+  text-align: center;
+  margin-bottom: 20px;
+`;
 
-export const Tbody = styled.table`text-align: center;`;
+export const Tbody = styled.table`
+  text-align: center;
+`;

@@ -21,10 +21,10 @@ export const Avatar = styled.img`
 `;
 
 export const List = styled.ul`
-list-style: none;
-display: flex;
-align-items: center;
-gap: 15px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 `;
 export const Items = styled.li`
   display: flex;

@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
-import {List, FriendItem, Status, FriendImg } from './list-styles';
-export const FriendList = ({friends}) => {
+import { List, FriendItem, Status, FriendImg } from './list-styles';
+export const FriendList = ({ friends }) => {
   return (
     <List>
       {friends.map(item => {
         const { avatar, name, isOnline } = item;
         return (
-          <FriendItem key={item.id}>            
+          <FriendItem key={item.id}>
             <FriendImg src={avatar} alt="User avatar" width="48"></FriendImg>
             <h2>{name}</h2>
             <Status $isOnline={isOnline}></Status>

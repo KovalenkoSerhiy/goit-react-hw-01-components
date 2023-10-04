@@ -16,14 +16,12 @@ export const FriendItem = styled.li`
   align-items: center;
   text-align: center;
   gap: 20px;
-  cursor: pointer;  
+  cursor: pointer;
   background-color: grey;
   width: 400px;
   border-radius: 5px;
-  box-shadow:
-    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
-    0 0 0 2px rgb(82 60 60 / 39%),
-    0.3em 0.3em 3em rgba(0, 0, 0, 0.3);  
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(82 60 60 / 39%),
+    0.3em 0.3em 3em rgba(0, 0, 0, 0.3);
   margin: 10px;
 `;
 
