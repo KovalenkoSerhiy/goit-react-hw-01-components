@@ -1,15 +1,7 @@
 import PropTypes from 'prop-types';
 import { Conteiner, List, Description, Avatar, Items } from './profile-style';
 
-export const Profile = ({
-  users: {
-    username,
-    tag,
-    location,
-    avatar,
-    stats: { followers, views, likes },
-  },
-}) => {
+export const Profile = ({ avatar, username, tag, location, stats  }) => {
   return (
     <Conteiner>
       <Description>
@@ -21,15 +13,15 @@ export const Profile = ({
       <List>
         <Items>
           <span className="label">Followers</span>
-          <span className="quantity">{followers}</span>
+          <span className="quantity">{stats.followers}</span>
         </Items>
         <Items>
           <span className="label">Views</span>
-          <span className="quantity">{views}</span>
+          <span className="quantity">{stats.views}</span>
         </Items>
         <Items>
           <span className="label">Likes</span>
-          <span className="quantity">{likes}</span>
+          <span className="quantity">{stats.likes}</span>
         </Items>
       </List>
     </Conteiner>
